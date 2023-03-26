@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "target": "es2015",
+    "removeComments": true,
+    "outFile": "output/index.js"
+  },
+  "include": ["src/pages/*.ts"]
+}

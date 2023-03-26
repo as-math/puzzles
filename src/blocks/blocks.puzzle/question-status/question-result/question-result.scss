@@ -1,0 +1,6 @@
+@mixin question-result {
+  @at-root .question-result {
+    text-align: left;
+    flex-grow: 2;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "puzzles",
+  "version": "1.0.0",
+  "description": "Math puzzles by Anastasija Serova",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prettier_check": ".\\node_modules\\.bin\\prettier --check .",
+    "prettier_write": ".\\node_modules\\.bin\\prettier --write .",
+    "index_html": "xslt3 \"-s:src/pages/index.html\" \"-xsl:src/pages/index.xsl\" \"-o:output/index.html\"",
+    "index_css": ".\\node_modules\\.bin\\sass src/pages/index.scss output/index.css --no-source-map",
+    "index_js": ".\\node_modules\\.bin\\tsc "
+  },
+  "author": "Anastasija Serova",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.8.7",
+    "sass": "1.60.0",
+    "typescript": "5.0.2",
+    "xslt3": "2.5.0"
+  },
+  "dependencies": {
+    "@prettier/plugin-xml": "^2.2.0"
+  }
+}

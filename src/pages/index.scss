@@ -1,0 +1,8 @@
+@use "../color-themes/color-themes" as color-themes;
+@use "../blocks/blocks.puzzle/puzzle/puzzle" as puzzle;
+
+* {
+  font-family: "Arbutus Slab", "Gabriela";
+}
+@include color-themes.color-themes(main);
+@include puzzle.puzzle;

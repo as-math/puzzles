@@ -1,0 +1,18 @@
+@use "../question/question" as question;
+@use "../question-status/question-status" as question-status;
+@use "puzzle-content/puzzle-content" as puzzle-content;
+
+@mixin puzzle {
+  @at-root .puzzle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: min(30rem, 90vw);
+    border: 1px solid var(--green);
+  }
+
+  @include question.question;
+  @include puzzle-content.puzzle-content;
+  @include question-status.question-status;
+}

@@ -1,0 +1,18 @@
+@mixin input_theme($theme) {
+  &::placeholder {
+    color: var(--gray);
+  }
+  &:focus {
+    outline: none;
+  }
+  @if $theme == blue {
+    color: var(--dark_gray);
+    background-color: var(--white);
+    border: solid var(--blue);
+  }
+  @if $theme == green {
+    color: var(--dark_gray);
+    background-color: var(--white);
+    border: solid var(--green);
+  }
+}

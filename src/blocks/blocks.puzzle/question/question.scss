@@ -1,0 +1,9 @@
+@use "__buttons-block/question__buttons-block" as buttons-block;
+@use "__button/question__button" as button;
+@use "__input/question__input" as input;
+
+@mixin question {
+  @include buttons-block.question__buttons-block;
+  @include button.question__button;
+  @include input.question__input;
+}

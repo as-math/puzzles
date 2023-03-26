@@ -1,0 +1,32 @@
+@mixin button_theme($color, $theme) {
+  @if $color == blue {
+    @if $theme == convex {
+      @include theme_convex(blue, white);
+    }
+    @if $theme == concave {
+      @include theme_concave(blue, white);
+    }
+  }
+  @if $color == green {
+    @if $theme == convex {
+      @include theme_convex(green, light_green);
+    }
+    @if $theme == concave {
+      @include theme_concave(green, light_green);
+    }
+  }
+}
+
+@mixin theme_convex($color_main, $color_light) {
+  border-style: solid;
+  color: var(--#{$color_light});
+  background-color: var(--#{$color_main});
+  border-color: var(--#{$color_main});
+}
+
+@mixin theme_concave($color_main, $color_light) {
+  border-style: solid;
+  color: var(--#{$color_main});
+  background-color: var(--#{$color_light});
+  border-color: var(--#{$color_main});
+}

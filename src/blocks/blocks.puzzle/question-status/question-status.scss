@@ -1,0 +1,14 @@
+@use "question-id/question-id" as question-id;
+@use "question-result/question-result" as question-result;
+@use "../puzzle-button-lang/puzzle-button-lang" as puzzle-button-lang;
+
+@mixin question-status {
+  @at-root .question-status {
+    display: flex;
+    width: 90%;
+  }
+
+  @include question-id.question-id;
+  @include question-result.question-result;
+  @include puzzle-button-lang.puzzle-button-lang;
+}

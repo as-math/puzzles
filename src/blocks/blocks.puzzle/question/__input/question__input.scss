@@ -1,0 +1,14 @@
+@use "../../../blocks.basic/input/input" as input;
+
+@mixin question__input {
+  @at-root .question__input {
+    @include input.input_theme(blue);
+    border-width: 0.15rem;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+}

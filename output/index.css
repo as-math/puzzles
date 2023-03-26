@@ -1,0 +1,112 @@
+* {
+  font-family: "Arbutus Slab", "Gabriela";
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gray: hsl(0, 0%, 65%);
+  --light_gray: hsl(0, 0%, 85%);
+  --dark_gray: hsl(0, 0%, 40%);
+  --blue: hsl(230, 60%, 60%);
+  --light_blue: hsl(230, 100%, 85%);
+  --green: hsl(100, 100%, 30%);
+  --light_green: hsl(100, 100%, 85%);
+  --red: hsl(0, 100%, 50%);
+  --light_red: hsl(0, 100%, 85%);
+}
+
+.puzzle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: min(30rem, 90vw);
+  border: 1px solid var(--green);
+}
+
+.question__buttons-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.question__button {
+  border-width: 0.15rem;
+  border-radius: 0.7rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-style: solid;
+  color: var(--white);
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+.question__button:active {
+  border-style: solid;
+  color: var(--blue);
+  background-color: var(--white);
+  border-color: var(--blue);
+}
+
+.question__input {
+  color: var(--dark_gray);
+  background-color: var(--white);
+  border: solid var(--blue);
+  border-width: 0.15rem;
+  border-radius: 0.7rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+.question__input::placeholder {
+  color: var(--gray);
+}
+.question__input:focus {
+  outline: none;
+}
+
+.puzzle-content {
+  text-align: justify;
+}
+
+.question-status {
+  display: flex;
+  width: 90%;
+}
+
+.question-id {
+  display: inline-block;
+  width: max-content;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.question-result {
+  text-align: left;
+  flex-grow: 2;
+}
+
+.button-lang {
+  border-width: 0.15rem;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.2rem;
+  border-style: solid;
+  color: var(--green);
+  background-color: var(--light_green);
+  border-color: var(--green);
+}
+.button-lang:active {
+  border-style: solid;
+  color: var(--light_green);
+  background-color: var(--green);
+  border-color: var(--green);
+}

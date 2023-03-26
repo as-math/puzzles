@@ -1,0 +1,16 @@
+@use "../../../blocks.basic/button/button" as button;
+
+@mixin question__button {
+  @at-root .question__button {
+    border-width: 0.15rem;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    @include button.button_theme(blue, convex);
+    &:active {
+      @include button.button_theme(blue, concave);
+    }
+  }
+}

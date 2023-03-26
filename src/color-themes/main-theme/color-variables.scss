@@ -1,0 +1,13 @@
+@mixin color-variables {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gray: hsl(0, 0%, 65%);
+  --light_gray: hsl(0, 0%, 85%);
+  --dark_gray: hsl(0, 0%, 40%);
+  --blue: hsl(230, 60%, 60%);
+  --light_blue: hsl(230, 100%, 85%);
+  --green: hsl(100, 100%, 30%);
+  --light_green: hsl(100, 100%, 85%);
+  --red: hsl(0, 100%, 50%);
+  --light_red: hsl(0, 100%, 85%);
+}

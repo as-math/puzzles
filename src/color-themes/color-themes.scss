@@ -1,0 +1,9 @@
+@use "main-theme/color-variables" as main-theme;
+
+@mixin color-themes($theme) {
+  @if $theme == main {
+    :root {
+      @include main-theme.color-variables;
+    }
+  }
+}

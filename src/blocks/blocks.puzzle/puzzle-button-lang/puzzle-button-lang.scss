@@ -1,0 +1,16 @@
+@use "../../blocks.basic/button/button" as button;
+
+@mixin puzzle-button-lang {
+  @at-root .button-lang {
+    border-width: 0.15rem;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.2rem;
+    @include button.button_theme(green, concave);
+    &:active {
+      @include button.button_theme(green, convex);
+    }
+  }
+}
