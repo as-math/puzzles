@@ -1,0 +1,7 @@
+<puzzle id="006" date="2021-12-27">
+	<image>006.png</image>
+	<question>
+		<text>Length?</text>
+		<answer type="text">4*sqrt(x*y)</answer>
+	</question>
+</puzzle>

@@ -1,0 +1,38 @@
+:host {
+	max-width: min(100%, 30rem);
+}
+
+.puzzle-card {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 10px;
+	border: 0.2rem solid hsl(0, 0%, 90%);
+	border-radius: 1rem;
+	text-align: justify;
+
+	& > legend {
+		color: hsl(0, 0%, 75%);
+		font-size: 0.8rem;
+	}
+}
+
+/* Show only default tags and tags with selected language */
+:host(:not([data-lang])) ::slotted([data-lang]),
+:host([data-lang="en"]) ::slotted([data-lang]:not([data-lang="en"])),
+:host([data-lang="ru"]) ::slotted([data-lang]:not([data-lang="ru"])),
+:host([data-lang="eo"]) ::slotted([data-lang]:not([data-lang="eo"])) {
+	display: none;
+}
+
+::slotted(img) {
+	width: 100%;
+}
+
+::slotted(svg) {
+	width: 25rem;
+}
+
+::slotted(p) {
+	width: 100%;
+}

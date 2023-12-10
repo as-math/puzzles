@@ -1,0 +1,87 @@
+<puzzle id="013" date="2022-01-11">
+	<text>
+		В коробке лежат 48 шариков: 10 красных, 13 синих, 18 зелёных и 7 жёлтых. Какое минимальное количество шариков надо вытащить за раз не глядя, чтобы среди них точно был:
+	</text>
+	<questions>
+		<question>
+			<text>a) не жёлтый шарик;</text>
+			<answer>8</answer>
+		</question>
+		<question>
+			<text>б) шарик не синего и не красного цвета;</text>
+			<answer>24</answer>
+		</question>
+		<question>
+			<text>в) 2 шарика одинакового цвета;</text>
+			<answer>5</answer>
+		</question>
+		<question>
+			<text>г) 2 шарика разного цвета;</text>
+			<answer>19</answer>
+		</question>
+		<question>
+			<text>д) 3 шарика одинакового цвета;</text>
+			<answer>9</answer>
+		</question>
+		<question>
+			<text>е) 3 шарика разного цвета;</text>
+			<answer>32</answer>
+		</question>
+		<question>
+			<text>ё) 4 шарика одинакового цвета;</text>
+			<answer>13</answer>
+		</question>
+		<question>
+			<text>ж) 4 шарика разного цвета;</text>
+			<answer>42</answer>
+		</question>
+		<question>
+			<text>з) 5 синих шариков;</text>
+			<answer>40</answer>
+		</question>
+		<question>
+			<text>и) 7 жёлтых шариков;</text>
+			<answer>48</answer>
+		</question>
+		<question>
+			<text>й) 11 красных шариков;</text>
+			<answer/>
+		</question>
+		<question>
+			<text>к) 2 красных и 3 синих;</text>
+			<answer>40</answer>
+		</question>
+		<question>
+			<text>л) 7 зелёных и 5 жёлтых;</text>
+			<answer>46</answer>
+		</question>
+		<question>
+			<text>м) 2 синих, 3 зелёных и 4 красных;</text>
+			<answer>42</answer>
+		</question>
+		<question>
+			<text>н) 5 жёлтых, 6 синих и 7 зелёных;</text>
+			<answer>46</answer>
+		</question>
+		<question>
+			<text>о) либо 3 красных, либо 5 зелёных;</text>
+			<answer>27</answer>
+		</question>
+		<question>
+			<text>п) либо 5 синих, либо 3 зелёных, либо 2 жёлтых;</text>
+			<answer>18</answer>
+		</question>
+		<question>
+			<text>р) 2 синих и 2 красных либо 2 зелёных и 2 жёлтых;</text>
+			<answer>34</answer>
+		</question>
+		<question>
+			<text>с) 3 шарика одинакового цвета либо 2 разного цвета;</text>
+			<answer>3</answer>
+		</question>
+		<question>
+			<text>т) 3 шарика разного цвета и среди них был синий шарик?</text>
+			<answer>36</answer>
+		</question>
+	</questions>
+</puzzle>

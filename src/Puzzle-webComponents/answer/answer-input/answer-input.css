@@ -1,0 +1,38 @@
+:host {
+	display: contents;
+}
+
+.answer-input {
+	height: 1.8rem;
+	display: flex;
+	align-items: center;
+	color: hsl(0, 0%, 50%);
+	background-color: white;
+	border: solid hsl(230, 60%, 60%);
+	border-width: 0.15rem;
+	border-radius: 0.9rem;
+	padding-block: 0;
+	padding-inline-start: 0.1rem;
+	box-sizing: border-box;
+	font-size: 1rem;
+
+	& > input {
+		font-family: "Kurale";
+		font-size: 1rem;
+		height: 100%;
+		flex-grow: 2;
+		color: hsl(0, 0%, 50%);
+		background: transparent;
+		outline: none;
+		border: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	& > img {
+		height: 1.2rem;
+		width: 1.2rem;
+		margin: calc(0.3rem - 2px);
+	}
+}

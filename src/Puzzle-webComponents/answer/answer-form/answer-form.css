@@ -1,0 +1,16 @@
+:host {
+	display: contents;
+}
+
+slot {
+	display: block;
+	&[name="input"] {
+		flex-grow: 2;
+	}
+}
+
+.answer-form {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+}

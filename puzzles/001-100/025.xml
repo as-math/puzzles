@@ -1,0 +1,9 @@
+<puzzle id="025" langs="en ru eo" date="2022-11-30">
+	<image type="svg">025.svg</image>
+	<question>
+		<text lang="en">Eccentricity of ellipses</text>
+		<text lang="ru">Эксцентриситет эллипсов</text>
+		<text lang="eo">Discentreco de elipsoj</text>
+		<answer>0.8</answer>
+	</question>
+</puzzle>

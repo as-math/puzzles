@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AS Math - Puzzles</title>
+	<!-- Icon -->
+	<link rel="icon" type="image/svg+xml"
+		href="https://as-math.github.io/media-files/icons/as-math_icons/as-math_logo.svg">
+	<!-- Colors -->
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/colors/colors-root.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/fonts/ArbutusSlab/arbutusSlab.css">
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/fonts/Kurale/kurale.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Puzzle card -->
+	<script type="module" src="src/Puzzle-webComponents/index.mjs"></script>
+	<script type="module" src="src/load-puzzles.mjs"></script>
+	<style>
+		body {
+			font-family: "Kurale";
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+		}
+
+		body > * {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.header,
+		.content,
+		.footer {
+			max-width: min(44rem, 90vw);
+		}
+
+		.header-block {
+			background-color: hsl(0, 0%, 90%)
+		}
+
+		.header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 2rem;
+			margin-bottom: 0.5rem;
+			gap: 1rem;
+		}
+
+		.nav-and-social {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-content: flex-end;
+			flex-wrap: wrap;
+		}
+
+		.title {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 0 1em;
+		}
+
+		.title > .logo {
+			height: 5rem;
+		}
+
+		.title > .title-text {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			line-height: 0.6;
+			font-family: "Kurale";
+			font-size: 2.5rem;
+			color: var(--blue);
+		}
+
+		.content {
+			margin-top: 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.menu > ul {
+			margin: 0;
+			list-style-type: none;
+		}
+
+		.menu > ul > li > a {
+			color: black
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header-block">
+		<div class="header">
+			<div class="title">
+				<img class="logo" src="https://as-math.github.io/media-files/icons/as-math_icons/as-math_logo.svg" />
+				<h1 class="title-text">Math Puzzles<br><span style="font-size: 0.5em;">by Anastasija Serova</span></h1>
+			</div>
+			<div class="nav-and-social">
+				<nav class="navigation"></nav>
+				<div class="social">
+					<a href="https://t.me/SerovaA_math"><img
+							src="https://as-math.github.io/media-files/icons/media/telegram.svg"></a>
+					<a href="https://vk.com/as_math"><img src="https://as-math.github.io/media-files/icons/media/vk.svg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content-block">
+		<div class="content"></div>
+	</div>
+</body>
+
+</html>

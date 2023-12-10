@@ -1,0 +1,15 @@
+<puzzle id="023" langs="en ru eo" date="2022-08-25">
+	<image type="svg">023.svg</image>
+	<text lang="en">
+		1) Can a train turn around on such a road?<br/>
+		2) Is it possible to build such a cyclic route that would cover the entire road and at the same time be symmetrical with respect to a 90° turn?
+	</text>
+	<text lang="ru">
+		1) Может ли паровозик развернуться на такой дороге?<br/>
+		2) Можно ли построить такой циклический маршрут, который бы покрывал всю дорогу и при этом был симметричен относительно поворота на 90°?
+	</text>
+	<text lang="eo">
+		1) Ĉu trajno povas turni ĉirkaŭe sur tia vojo?<br/>
+		2) Ĉu eblas konstrui tian cikla itinero kiu kovrus la tutan vojon kaj samtempe esti simetria kun respekto al 90° turno?
+	</text>
+</puzzle>

@@ -1,0 +1,20 @@
+button {
+	--green: hsl(100, 100%, 30%);
+	--light-green: hsl(100, 50%, 85%);
+	width: max-content;
+	font-family: 'Kurale';
+	font-size: 1rem;
+	text-align: center;
+	border-radius: 0.3rem;
+	border: 0.15rem solid;
+	margin: 0.1rem;
+
+	color: var(--green);
+	background-color: var(--light-green);
+	border-color: var(--green);
+}
+
+button:active, :host(.active) button  {
+	color: var(--light-green);
+	background-color: var(--green);
+}

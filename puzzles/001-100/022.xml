@@ -1,0 +1,24 @@
+<puzzle id="022" langs="en ru eo" date="2022-08-24">
+	<image type="svg">022.svg</image>
+	<text lang="en">
+		The distance between the axles of the wheels of a bike is 110 cm. If you ride this bike in a circle, turning the handlebars by 30°, what will be the diameter of the trajectory of the front wheel and the diameter of the trajectory of the back wheel?
+	</text>
+	<text lang="ru">
+		У велосипеда расстояние между осями колёс — 110 см. Если на этом велосипеде ехать по кругу, повернув руль на 30°, то какими будут диаметр траектории переднего колеса и диаметр траектории заднего колеса?
+	</text>
+	<text lang="eo">
+		La distanco inter la aksoj de la biciklaj radoj estas 110 cm. Se vi rajdas ĉi tiun biciklon cirkle, turnante la kondukilo per 30°, kio estos la diametro de la trajektorio de la antaŭa rado kaj la diametro de la trajektorio de la malantaŭa rado?
+	</text>
+	<question>
+		<text lang="en">of front wheel (cm)</text>
+		<text lang="ru">переднего колеса (см)</text>
+		<text lang="eo">de la antaŭa rado (cm)</text>
+		<answer>440</answer>
+	</question>
+	<question>
+		<text lang="en">of back wheel (cm)</text>
+		<text lang="ru">заднего колеса (см)</text>
+		<text lang="eo">de la malantaŭa rado (cm)</text>
+		<answer>220*sqrt(3)</answer>
+	</question>
+</puzzle>

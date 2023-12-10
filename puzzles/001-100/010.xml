@@ -1,0 +1,7 @@
+<puzzle id="010" langs="en ru eo" date="2022-01-07">
+	<image type="svg">010.svg</image>
+	<question>
+		<text>S=?</text>
+		<answer>2/(2-sqrt(3))</answer>
+	</question>
+</puzzle>

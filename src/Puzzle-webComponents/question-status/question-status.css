@@ -1,0 +1,28 @@
+:host {
+	display: contents;
+}
+
+.question-status {
+	display: flex;
+}
+
+.question-id {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: hsl(0, 0%, 65%);
+}
+
+.question-result {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-grow: 2;
+}
+
+.lang-buttons {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}

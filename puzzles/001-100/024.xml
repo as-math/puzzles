@@ -1,0 +1,7 @@
+<puzzle id="024" date="2022-11-30">
+	<image type="svg">024.svg</image>
+	<question>
+		<text>R/R=?</text>
+		<answer>(2+sqrt(3))/(2-sqrt(3))</answer>
+	</question>
+</puzzle>
