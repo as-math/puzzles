@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AS Math - Puzzles</title>
+	<!-- Icon -->
+	<link rel="icon" type="image/svg+xml"
+		href="https://as-math.github.io/media-files/icons/as-math_icons/as-math_logo.svg">
+	<!-- Colors -->
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/colors/colors-root.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/fonts/ArbutusSlab/arbutusSlab.css">
+	<link rel="stylesheet" href="https://as-math.github.io/media-files/fonts/Kurale/kurale.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Puzzle card -->
+	<script type="module" src="src/Puzzle-webComponents/index.mjs"></script>
+</head>
+
+<body>
+	<div id="container" style="width: 30rem;"></div>
+	<script type="module">
+		import {loadOne} from "./src/load-puzzles.mjs";
+
+		function newURLHash(hash) {
+			let n = Number(hash.substring(1));
+			loadOne(n);
+		}
+
+		newURLHash(window.location.hash);
+
+		window.addEventListener(
+			"hashchange",
+			() => {
+				newURLHash(window.location.hash);
+			},
+		);
+	</script>
+</body>
+
+</html>

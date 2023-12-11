@@ -16,7 +16,6 @@
 
 	<!-- Puzzle card -->
 	<script type="module" src="src/Puzzle-webComponents/index.mjs"></script>
-	<script type="module" src="src/load-puzzles.mjs"></script>
 	<style>
 		body {
 			font-family: "Kurale";
@@ -98,6 +97,10 @@
 		.menu > ul > li > a {
 			color: black
 		}
+
+		script {
+			display: none;
+		}
 	</style>
 </head>
 
@@ -121,6 +124,10 @@
 	<div class="content-block">
 		<div class="content"></div>
 	</div>
+	<script type="module">
+		import {loadAll} from "./src/load-puzzles.mjs";
+		loadAll();
+	</script>
 </body>
 
 </html>

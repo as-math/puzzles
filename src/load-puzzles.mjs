@@ -11,9 +11,20 @@ async function getPuzzleHTML(url) {
 	return await puzzleTransform(xml.firstElementChild, xmlURL);
 }
 
-const content = document.querySelector(".content");
-let puzzle;
-for (let i = puzzlesPath["amount"]; i > 0; i--) {
-	puzzle = await getPuzzleHTML(puzzlesPath["get"](i));
-	content.append(puzzle);
+async function loadAll() {
+	const content = document.querySelector(".content");
+	let puzzle;
+	for (let i = puzzlesPath["amount"]; i > 0; i--) {
+		puzzle = await getPuzzleHTML(puzzlesPath["get"](i));
+		content.append(puzzle);
+	}
 }
+
+async function loadOne(i) {
+	const container = document.querySelector("#container");
+	const puzzle = await getPuzzleHTML(puzzlesPath["get"](i));
+	container.innerHTML = "";
+	container.append(puzzle);
+}
+
+export {loadAll, loadOne};
