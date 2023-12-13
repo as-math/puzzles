@@ -1,5 +1,6 @@
 :host {
 	max-width: min(100%, 30rem);
+	font-family: "Kurale";
 }
 
 .puzzle-card {
