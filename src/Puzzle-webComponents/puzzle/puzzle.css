@@ -1,5 +1,4 @@
 :host {
-	max-width: min(100%, 30rem);
 	font-family: "Kurale";
 }
 
@@ -16,6 +15,10 @@
 		color: hsl(0, 0%, 75%);
 		font-size: 0.8rem;
 	}
+
+	& > *, & ::slotted(*){
+		max-width: 30rem;
+	}
 }
 
 /* Show only default tags and tags with selected language */
@@ -26,14 +29,6 @@
 	display: none;
 }
 
-::slotted(img) {
-	width: 100%;
-}
-
-::slotted(svg) {
-	width: 25rem;
-}
-
-::slotted(p) {
-	width: 100%;
+::slotted(svg:not([width])) {
+	width: 50rem;
 }
