@@ -17,7 +17,7 @@
 	}
 
 	& > *, & ::slotted(*){
-		max-width: 30rem;
+		max-width: min(30rem, 70vw);
 	}
 }
 
